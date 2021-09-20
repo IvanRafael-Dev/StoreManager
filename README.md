@@ -59,6 +59,10 @@ Através deste projeto, foi possível:
 
 - `npm install`
 
+3. Para rodar os testes 
+
+- `npm run test:mocha`
+
 
 ### Tabelas
 
