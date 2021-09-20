@@ -47,7 +47,7 @@ Através deste projeto, foi possível:
 
 ---
 
-# Instruções para Utilizat a API:
+# Instruções para Utilizar a API:
 
 1. Clone o repositório
 - `git clone https://github.com/IvanRafael-Dev/StoreManager.git`.
