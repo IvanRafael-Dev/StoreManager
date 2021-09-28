@@ -64,41 +64,7 @@ Através deste projeto, foi possível:
 - `npm run test:mocha`
 
 
-### Tabelas
+### TESTES
 
-O banco possui duas tabelas: produtos e vendas
+Projeto com 100% de cobertura de testes, utilizando Mocha, Chai e Sinon.
 
-A tabela de produtos contém o seguinte nome: `products`
-
-Os campos da tabela `products` têm esse formato:
-
-```json
-{ "name": "Produto Silva", "quantity": 10 }
-```
-
-A resposta do insert retorna após a criação é parecida essa:
-
-```json
-{ "_id": ObjectId("5f43cbf4c45ff5104986e81d"), "name": "Produto Silva", "quantity": 10 }
-```
-
-(O \_id é gerado automaticamente)
-
-A tabela de vendas tem o seguinte nome: `sales`
-
-Os campos da tabela `sales` têm esse formato:
-
-```json
-{ "itensSold": [{ "productId": "5f43cbf4c45ff5104986e81d", "quantity": 2 }] }
-```
-
-A resposta do insert após a criação é parecida essa:
-
-```json
-{
-  "_id": ObjectId("5f43cc53c45ff5104986e81e"),
-  "itensSold": [{ "productId": "5f43cbf4c45ff5104986e81d", "quantity": 2 }]
-}
-```
-
-(O \_id é gerado automaticamente)
