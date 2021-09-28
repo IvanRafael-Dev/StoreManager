@@ -22,14 +22,14 @@ Foi utilizado o MongoDB para a gestão de dados. Além disso, a API é RESTful.
 # Sumário
   - `Através da API é possível:`
 
-    - [1 - O cadastro de produtos](#1---crie-um-endpoint-para-o-cadastro-de-produtos)
-    - [2 - GET em /products para listar os produtos](#2---crie-um-endpoint-para-listar-os-produtos)
-    - [3 - PUT em /products para atualizar um produto](#3---crie-um-endpoint-para-atualizar-um-produto)
-    - [4 - DELETE em /products para deletar um produto](#4---crie-um-endpoint-para-deletar-um-produto)
-    - [5 - POST em /sales para cadastrar vendas](#5---crie-um-endpoint-para-cadastrar-vendas)
-    - [6 - GET em /sales para listar as vendas](#6---crie-um-endpoint-para-listar-as-vendas)
-    - [7 - PUT em /sales para atualizar uma venda](#7---crie-um-endpoint-para-atualizar-uma-venda)
-    - [8 - DELETE em /sales para deletar uma venda](#8---crie-um-endpoint-para-deletar-uma-venda)
+    - 1 - O cadastro de produtos
+    - 2 - GET em /products para listar os produtos
+    - 3 - PUT em /products para atualizar um produto
+    - 4 - DELETE em /products para deletar um produto
+    - 5 - POST em /sales para cadastrar vendas
+    - 6 - GET em /sales para listar as vendas
+    - 7 - PUT em /sales para atualizar uma venda
+    - 8 - DELETE em /sales para deletar uma venda
     
 ---
 
@@ -64,7 +64,7 @@ Através deste projeto, foi possível:
 - `npm run test:mocha`
 
 
-### TESTES
+# TESTES
 
 Projeto com 100% de cobertura de testes, utilizando Mocha, Chai e Sinon.
 
